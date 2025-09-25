@@ -28,15 +28,15 @@ document.addEventListener('DOMContentLoaded', function() {
         submittedDataDiv.innerHTML = `
             <div class="result-item">
                 <div class="result-label">Contact Details:</div>
-                <div class="result-value">${escapeHtml(data.contactDetails) || 'Not provided'}</div>
+                <div class="result-value">${escapeHtml(data.contactDetails || 'Not provided')}</div>
             </div>
             <div class="result-item">
                 <div class="result-label">Which dog makes the best coding buddy?</div>
-                <div class="result-value">${escapeHtml(data.dogBuddy) || 'Not provided'}</div>
+                <div class="result-value">${escapeHtml(data.dogBuddy || 'Not provided')}</div>
             </div>
             <div class="result-item">
                 <div class="result-label">Which cat makes the best coding buddy?</div>
-                <div class="result-value">${escapeHtml(data.catBuddy) || 'Not provided'}</div>
+                <div class="result-value">${escapeHtml(data.catBuddy || 'Not provided')}</div>
             </div>
         `;
     }
