@@ -1,0 +1,30 @@
+# Compiled binaries
+test1
+test2
+test_div
+*.exe
+*.out
+*.o
+
+# Build artifacts
+*.a
+*.so
+*.dll
+
+# Temporary files
+*~
+.*.swp
+.*.swo
+
+# IDE files
+.vscode/
+.idea/
+*.vcxproj*
+*.sln
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# CodeQL
+_codeql_detected_source_root
