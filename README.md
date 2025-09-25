@@ -14,7 +14,6 @@ This project implements a simple contact form and survey about coding buddies, a
 - `index.html` - Main HTML form and page structure
 - `style.css` - Styling and responsive design
 - `script.js` - JavaScript for form handling and data display
-- `tes.md` - Original test file (kept for historical reference)
 
 ## Usage
 
