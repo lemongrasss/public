@@ -26,7 +26,11 @@ public:
     void subtract(double x) { value -= x; }
     void multiply(double x) { value *= x; }
     void divide(double x) { 
-        if (x != 0) value /= x; 
+        if (x != 0) {
+            value /= x; 
+        } else {
+            std::cout << "Warning: Division by zero ignored" << std::endl;
+        }
     }
     
     double getValue() const { return value; }

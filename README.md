@@ -7,7 +7,7 @@ This repository contains C++ test files for basic functionality testing.
 - `test-1.cpp` - Basic C++ tests including arithmetic operations, string manipulations, and array operations
 - `test-2.cpp` - Advanced C++ tests with STL containers, sorting algorithms, and class functionality
 - `Makefile` - Build configuration for compiling and running the tests
-- `tes.md` - Original markdown file
+- `tes.md` - Legacy markdown file (pre-existing)
 
 ## Building and Running
 
