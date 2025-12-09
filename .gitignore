@@ -1,0 +1,22 @@
+# Cool Gitignore 😎
+# Ignoring uncool stuff
+
+# Uncool OS files
+.DS_Store
+Thumbs.db
+
+# Uncool editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Uncool build artifacts
+*.log
+*.tmp
+dist/
+build/
+node_modules/
+
+# Keep it cool, keep it clean! 🧹
