@@ -1,5 +1,7 @@
 Test
 
-## dzfvdfb
+## Issue #515 Notes
 
-sfbfgbfgnf
+Original issue title: dzfvdfb
+
+Original issue description: sfbfgbfgnf
