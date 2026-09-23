@@ -1,7 +1,5 @@
 Test
 
-## Issue #515 Notes
+## Issue #515
 
-Original issue title: dzfvdfb
-
-Original issue description: sfbfgbfgnf
+[Issue #515](https://github.com/lemongrasss/public/issues/515) did not provide substantive implementation details beyond placeholder text.
