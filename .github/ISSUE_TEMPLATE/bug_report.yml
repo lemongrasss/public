@@ -1,6 +1,29 @@
 name: Bug Report
-description: File a bug report
+description: File an actionable bug report
 body:
   - type: textarea
+    id: description
     attributes:
       label: Describe the bug
+      description: Explain what happened and why it is a bug.
+      placeholder: Tell us what went wrong.
+    validations:
+      required: true
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps to reproduce
+      description: List the steps needed to reproduce the problem.
+      placeholder: |
+        1. Go to ...
+        2. Click ...
+        3. See ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected behavior
+      description: Describe what you expected to happen.
+    validations:
+      required: true
