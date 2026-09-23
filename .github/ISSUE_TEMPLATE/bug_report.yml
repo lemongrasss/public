@@ -1,6 +1,12 @@
 name: Bug Report
 description: File a bug report
+title: "[Bug]: "
 body:
   - type: textarea
+    id: description
     attributes:
       label: Describe the bug
+      description: Explain what happened and what you expected to happen.
+      placeholder: Please include clear steps to reproduce the bug.
+    validations:
+      required: true
